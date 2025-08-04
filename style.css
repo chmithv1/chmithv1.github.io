@@ -1,0 +1,106 @@
+body {
+  --accent-color: #88c0d0;
+  background-color: #1a1a1a;
+  color: #ffffff;
+  font-family: 'Courier New', Courier, monospace;
+  margin: 0;
+  padding: 5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  justify-content: center;
+}
+
+.avatar {
+  display: block;
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  margin: 0 auto -41px;
+  position: relative;
+  z-index: 1;
+}
+
+.container {
+  max-width: 800px;
+  width: 100%;
+  text-align: left;
+}
+
+h1 {
+  color: var(--accent-color);
+  text-align: center;
+}
+
+.bio, .contact, .devices, .software-i-use {
+  background-color: #2a2a2a;
+  padding: 1em;
+  border-radius: 8px;
+  margin-bottom: 1em;
+}
+
+.bio {
+  padding-top: 10px;
+  text-align: center;
+}
+
+.contact ul, .devices ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.software-i-use ul {
+  list-style-type: disc;
+  padding-left: 2em;
+}
+
+.contact li, .devices li, .software-i-use li {
+  margin-bottom: 0.5em;
+}
+
+.contact strong, .devices strong {
+    color: var(--accent-color);
+}
+
+.software p {
+  text-align: center;
+}
+
+a, a:visited {
+    color: var(--accent-color);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.button {
+  display: inline-block;
+  padding: 0.5em 0.5em;
+  background-color: var(--accent-color);
+  color: #1a1a1a;
+  border-radius: 5px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.button:hover {
+  background-color: #a0d8e8;
+  text-decoration: none;
+}
+
+a.button:visited {
+  color: #1a1a1a;
+}
+
+footer {
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  body {
+    padding: 2em 1em;
+  }
+}
