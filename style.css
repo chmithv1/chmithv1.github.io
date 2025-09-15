@@ -2,7 +2,6 @@ body {
   --accent-color: #88c0d0;
   background-color: #1a1a1a;
   color: #ffffff;
-  font-family: 'Courier New', Courier, monospace;
   margin: 0;
   padding: 5em;
   display: flex;
