@@ -13,6 +13,16 @@ body {
   font-size: 1.2rem;
 }
 
+.avatar {
+  display: block;
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  margin: 0 auto -41px;
+  position: relative;
+  z-index: 1;
+}
+
 .container {
   max-width: 800px;
   width: 100%;
