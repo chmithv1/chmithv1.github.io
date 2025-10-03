@@ -87,10 +87,6 @@ a.button:visited {
   color: #1a1a1a;
 }
 
-footer {
-  text-align: center;
-}
-
 @media (max-width: 768px) {
   body {
     padding: 2em 1em;
